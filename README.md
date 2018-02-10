@@ -16,5 +16,8 @@
 
 Check out all the super awesome contributors at [the contributors page](https://github.com/IamLizu/cplusplus/graphs/contributors).
 
+### Code Of Conduct
+Check out the Code Of Conduct [here](https://github.com/IamLizu/cplusplus/blob/master/CODE_OF_CONDUCT.md).
+
 > Code everyday with fun :speech_balloon:
 
