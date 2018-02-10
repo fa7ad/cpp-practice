@@ -12,9 +12,9 @@
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request and enjoy! :thumbsup:
 
-#### Contributors
+### Contributors
 
 Check out all the super awesome contributors at [the contributors page](https://github.com/IamLizu/cplusplus/graphs/contributors).
 
-> Code Everyday with Fun
+> Code everyday with fun :speech_balloon:
 
