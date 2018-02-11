@@ -1,3 +1,5 @@
+You are appreciated for contributing to this project. This repository have been created to help those students learning C++. I am sure your contribution will help someone. 
+
 ### Contributing
 
 1. Fork it!
