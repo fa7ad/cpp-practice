@@ -71,4 +71,3 @@ int main()
     cout<<endl;
     secondStudent.showValues(n,iden,crc,g);
 }
-
