@@ -24,6 +24,6 @@ int main()
     getline(cin,m);
 
     text1.setMassage(m);
-
+    cout<<"You entered : ";
     text1.printMassage(m);
 }
