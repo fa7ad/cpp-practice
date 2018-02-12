@@ -44,6 +44,7 @@ int main()
     cin>>crc;
     cout<<"Enter GPA            : ";
     cin>>g;
+    cout<<endl;
 
     firstStudent.setValues(n,iden,crc,g);
 
@@ -59,6 +60,15 @@ int main()
 
     secondStudent.setValues(n,iden,crc,g);
 
+    cout<<endl;
+    cout<<"Showing the student data.../"<<endl;
+    cout<<endl;
+
+    cout<<"Showing data of first student.../"<<endl;
+    cout<<endl;
     firstStudent.showValues(n,iden,crc,g);
+    cout<<"Showing data of second student.../"<<endl;
+    cout<<endl;
     secondStudent.showValues(n,iden,crc,g);
 }
+
