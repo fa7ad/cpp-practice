@@ -2,44 +2,30 @@
 
 using namespace std;
 
-class Book
+class Massage
 {
-    private:
-    string name, authorName;
-    int total_page;
-    float price, edition;
-    public:
-    void getValues();
-    void printValues();
+    string text;
+public:
+    void setMassage(string msg);
+    void printMassage(string msg);
 };
-void Book::getValues(){
-    cout<<"Enter Book's name  : ";
-    getline(cin,name);
-    cout<<"Enter Author's name: ";
-    getline(cin,authorName);
-    cout<<"Enter Page         : ";
-    cin>>total_page;
-    cout<<"Enter Price        : ";
-    cin>>price;
-    cout<<"Enter Edition      : ";
-    cin>>edition;
-    cin.ignore();
-}
-void Book::printValues()
-{
-    cout<<"Book's name   : "<<name<<endl;
-    cout<<"Author's Name : "<<authorName<<endl;
-    cout<<"Pages         : "<<total_page<<endl;
-    cout<<"Price         : "<<price<<endl;
-    cout<<"Edition       : "<<edition<<endl;
-}
+void Massage::setMassage(string msg)
+    {
+        text=msg;
+    }
+void Massage::printMassage(string msg)
+    {
+        cout<<text<<endl;
+    }
 
 int main()
 {
-    Book b1,b2;
-    b1.getValues();
-    b1.printValues();
-    b2.getValues();
-    b2.printValues();
-}
+    Massage text1;
+    string m;
+    cout<<"Enter your text : ";
+    getline(cin,m);
 
+    text1.setMassage(m);
+    cout<<"You entered : ";
+    text1.printMassage(m);
+}
